@@ -2,7 +2,7 @@ import requests
 
 def get_cat_images_by_breed(breed_name):
     """
-    猫の種類名（breed_name）で画像を取得する
+    猫種（breed_name）で画像を取得
     breed_nameは小文字推奨
     """
     # まず猫種一覧を取得してIDを探す
