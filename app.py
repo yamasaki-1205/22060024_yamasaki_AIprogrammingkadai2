@@ -29,9 +29,12 @@ st.markdown("---")
 st.subheader("📜 検索履歴")
 
 history = read_search_history()
-if history:
-    for row in history[-5:][::-1]:  # 直近5件のみ表示
+
+# 実際に履歴があるかチェックして表示
+if len(history) > 0:
+    for row in history[-5:][::-1]:  # 直近5件だけ表示（逆順）
         breed, img_url = row
         st.markdown(f"🔸 {breed}")
         st.image(img_url, width=300)
+else:
     st.write("まだ履歴がありません。")
