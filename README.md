@@ -1,0 +1,1 @@
+# 22060024_yamasaki_AIprogrammingkadai2
