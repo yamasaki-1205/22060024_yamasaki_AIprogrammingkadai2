@@ -32,6 +32,6 @@ history = read_search_history()
 if history:
     for row in history[-5:][::-1]:  # 直近5件のみ表示
         breed, img_url = row
-        st.write(f"🔸 {breed} → [画像を見る]({img_url})")
-else:
+        st.markdown(f"🔸 {breed}")
+        st.image(img_url, width=300)
     st.write("まだ履歴がありません。")
