@@ -4,7 +4,7 @@
 また、検索履歴は .csv ファイルとして保存され、アプリ内で一覧表示されます。
 
 # 使用したAPI
-The Cat API：猫の種類を指定して画像を取得するAPI
+The Cat API：猫の種類を指定して画像を取得するAPI  
 https://thecatapi.com/
 
 
