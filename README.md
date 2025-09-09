@@ -26,4 +26,6 @@ https://thecatapi.com/
 
 
 # 改善案
-improvement.md
+
+# 課題2
+夏休み課題の改善案はこちら
