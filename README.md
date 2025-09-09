@@ -23,3 +23,7 @@ https://thecatapi.com/
 - data_handler.py：検索履歴をCSVとして保存・読み込みする処理
 
 ![layout_diagram](cord.png)
+
+
+# 改善案
+improvement.md
