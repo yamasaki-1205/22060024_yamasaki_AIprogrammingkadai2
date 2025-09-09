@@ -25,7 +25,5 @@ https://thecatapi.com/
 ![layout_diagram](cord.png)
 
 
-# 改善案
-
-# 課題2
-夏休み課題の改善案はこちら
+# 最終課題
+夏休み課題の改善案はこちら("improvement.md")
